@@ -47,11 +47,11 @@ func main() {
 	}
 	println()
 
-	my_array := [3]int{33, 222, 3221}
+	my_array := [3]string{"go", "awesome"}
 	for index, value := range my_array {
 		fmt.Printf("index -> %d", index)
 		print("\t")
-		fmt.Printf("value -> %d", value)
+		fmt.Printf("value -> %s", value)
 		println()
 	}
 }
