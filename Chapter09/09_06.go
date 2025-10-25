@@ -1,4 +1,4 @@
-package future
+package barrier2
 
 type SuccessFunc func(string)
 type FailFunc func(error)

@@ -1,6 +1,6 @@
 package shapes
 
-import "github.com/sayden/go-design-patterns/behavioral/strategy/example2"
+import strategy "strategy-example2"
 
 type TextSquare struct {
 	strategy.DrawOutput

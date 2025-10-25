@@ -6,8 +6,7 @@ import (
 	"image/color"
 	"image/draw"
 	"image/jpeg"
-
-	"github.com/sayden/go-design-patterns/behavioral/strategy/example2"
+	strategy "strategy-example2"
 )
 
 type ImageSquare struct {

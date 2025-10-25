@@ -3,8 +3,7 @@ package shapes
 import (
 	"fmt"
 	"os"
-
-	"github.com/sayden/go-design-patterns/behavioral/strategy/example2"
+	strategy "strategy-example2"
 )
 
 const (

@@ -1,47 +1,46 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# GoLand project files
+.idea/
 
-# Folder config file
-Desktop.ini
+# Go build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Go generated files
+*.test
+*.out
+cover.out
+profile.out
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Go module files (keep go.mod and go.sum — DO NOT IGNORE THEM!)
+# But ignore downloaded dependencies
+go/pkg/
+vendor/
 
-# Windows shortcuts
-*.lnk
+# Test and coverage
+*.coverprofile
+*.html
 
-# =========================
-# Operating System Files
-# =========================
+# Local environment files
+.env
+.env.local
+.env.*.local
 
-# OSX
-# =========================
-
+# OS generated files
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
+ehthumbs.db
+Thumbs.db
+*.stackdump
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Editor/IDE files (in case you or others use different editors)
+.vscode/
+*.swp
+*.swo
+*~

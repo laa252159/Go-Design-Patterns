@@ -1,9 +1,7 @@
-package future
+package barrier2
 
 import (
-	"errors"
 	"testing"
-	"sync"
 )
 
 func TestStringOrError_Execute(t *testing.T) {
